@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>Registration</title>
+    <title>Login</title>
     </head>
     <style>
         .redText {
@@ -9,6 +9,7 @@
         }
     </style>
     <body>
+       
         
 
         
@@ -20,11 +21,27 @@
             <input type="password" placeholder="Confirm Password" class="redText">
         </div>
         <div style="margin-top: 1rem;">
-            <button>Login</button>
             
-                <button>Register</button>
-            </a>
+            <div><button id="buttonLogin">Login</button></div>
+            <a href="register.html"><button>Register</button></a>
+                
+                
+                    
+                
+            
         </div>
+        </div>
+            
+     </body>
+     <script>
+        alert("Hello World");
+        console.log("Hello World.", 1 + 1);
+        let buttonLogin = document.querySelector("#buttonLogin")
+        buttonLogin.onclick = function () {
+            alert("Successful Login")
+        }
+        
+    </script>
     
 </style>
 </html>
